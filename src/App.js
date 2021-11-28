@@ -11,10 +11,12 @@ import Portfolio from './components/Portfolio';
 import Github from './components/Github';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import NewApresentation from './components/NewPresentation';
 
 function App() {
   return (
     <div className="mother">
+      <NewApresentation />
       <Header />
       <Presentation />
       <ExperienceList experienceData={experienceData} />
